@@ -1,0 +1,169 @@
+/*****************************************************
+ 
+    Numatytųjų naršyklės stiliaus taisyklių perrašymas 
+ 
+******************************************************/
+ 
+/* Visos išorinės paraštės (margin) lygios 0 */
+* {
+    margin:0;
+}
+ 
+/* Šrifto tipo ir dydžio taisyklės visam tinklapiui */
+ 
+ 
+body{
+    font-family: 'Questrial', sans-serif;
+    font-size: 12pt;
+}
+ 
+/* Kelios klasės */
+ 
+.description{
+    background-color: #F3F3F3;
+}
+ 
+.container{
+    padding: 30px 10px;
+}
+ 
+/****************************************
+ 
+    Tinklapio antraštė 
+ 
+*****************************************/
+ 
+/* header: 
+    fono spalva: #16A085, 
+    teksto - balta.
+*/
+ 
+ 
+ 
+/* <h1>, esantis <header> dalyje: 
+    tekstas: visos didžiosios raidės,
+    vidinės paraštės (padding): 20px 0,
+*/
+ 
+ 
+ 
+/* <h3>, esantis <header> dalyje:
+    tarpai tarp raidžių: 0,3 em
+*/
+ 
+ 
+ 
+/* <nav>, esantis <header> dalyje:
+    viršutinis rėmelis: 2px dashed white;
+    viršutinė vidinė paraštė: 20px;
+*/
+ 
+ 
+/* nuoroda, esanti <header> dalyje:
+    spalva: balta;
+    teksto pabraukimo nėra;
+*/
+ 
+ 
+/* sąrašas, esantis <header> dalyje:
+    sąrašo ženklinimo nėra;
+    visos vidinės paraštės lygios 0;
+*/
+ 
+ 
+/* 
+sąrašas išdėstytas eilutėje:
+*/
+ 
+header nav li{
+    display: inline-block;
+    width: 150px;
+}
+ 
+/* Pseudo klases nuorodoms, <header> dalyje */
+ 
+/* :link
+    teksto spalva: balta;
+*/
+ 
+ 
+ 
+/* :visited 
+    teksto spalva: balta;
+*/
+ 
+ 
+ 
+/* :hover
+    teksto spalva: balta;
+    tesktas pabrauktas;
+*/
+ 
+ 
+ 
+/* :active
+    teksto spalva: pilka;
+*/
+ 
+ 
+/*********NEW NEW NEW****************************
+     
+    Tinklapio pagrindinė dalis | Main 
+ 
+*************************************/
+ 
+/* <h3>, esantis <article>:
+    tekstas: visos didžiosios raidės;
+    teksto spalva: #16A085;
+    tarpai tarp raidžių: 0,3em;
+*/
+ 
+ 
+ 
+/* <ul>, esančio <article>:
+    ženklinto sąrašo stilius: kvadratas;
+*/
+ 
+ 
+ 
+/* <ol>, esančio <article>:
+    numeracijos stilius: mažosios romėniškos raidės;
+    eilutės aukštis: 2;
+*/
+ 
+ 
+ 
+/* pirmoji <section>, esanti <main> dalyje:
+    teksto lygiavimas: centruotas (center);
+*/
+ 
+ 
+ 
+/* paveiklas:
+    rėmelis: 1px solid #16A085;
+*/
+ 
+ 
+ 
+/**************************************
+ 
+    Tinklapio baigiamoji dalis | footer
+ 
+***************************************/
+ 
+/* <footer> dalys:
+    teksto lygiavimas: centruotas;
+    fono spalva: #16A085;
+*/
+ 
+  
+/* nuorodos, esančio <footer>:
+    teksto pabraukimo nėra;
+    teksto spalva: balta;
+*/
+ 
+ 
+ 
+/* <h5>, esančio <footer> dalyje:
+    viršutinės vidinė paraštė: 20px;
+*/
