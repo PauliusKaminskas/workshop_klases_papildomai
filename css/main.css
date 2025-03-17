@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Questrial', sans-serif;
@@ -29,11 +30,13 @@ header > nav {
 }
 header > nav > ul > li > a {
     text-decoration: none;
-    padding: 0;
 }
-header nav li {
+header li {
     display: inline-block;
     width: 150px;
+}
+header ul {
+    padding: 0;
 }
 header > nav > ul > li > a:visited {
     color: white;
